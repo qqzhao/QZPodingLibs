@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "QZCommon"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of util. by ab. c."
   s.description  = "this is the description by myself."
   s.homepage     = "http://EXAMPLE/util"
@@ -21,24 +21,42 @@ Pod::Spec.new do |s|
   s.author             = { "qqzhao2010@gmail.com" => "qqzhao2010@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  # s.platform     = :ios
   s.platform     = :ios, "8.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "http://github.com/qqzhao/util.git", :tag => "#{s.version}" }
-
+  s.source       = { :git => "http://github.com/qqzhao/QZPodingLibs.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
   s.source_files  = "QZCommon", "*.{swift}"
   s.exclude_files = "Exclude"
-
   # s.public_header_files = "Classes/**/*.h"
-
+  
+  # ――― Network sub ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  s.subspec 'Base' do |base|
+      base.source_files = "#{s.name}/base"
+  end
+  
+  # ――― UI sub ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  s.subspec 'UI' do |ui|
+      ui.source_files = "#{s.name}/ui"  # 注意这里双引号
+  end
+  
+  # ――― Network sub ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  s.subspec 'Network' do |network|
+      network.source_files = "#{s.name}/network"
+  end
+  
+  # ――― All subs ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  s.subspec 'All' do |all|
+      all.dependency  "#{s.name}/Network"
+      all.dependency  "#{s.name}/UI"
+      all.dependency  "#{s.name}/Base"
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
+  # s.dependency "Toaster", "~> 2.1.1"
 
 end
