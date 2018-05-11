@@ -1,0 +1,30 @@
+PODS:
+  - TXBeacon (0.0.1):
+    - TXBeacon/Audit (= 0.0.1)
+    - TXBeacon/Base (= 0.0.1)
+    - TXBeacon/Log (= 0.0.1)
+    - TXBeacon/Speed (= 0.0.1)
+    - TXBeacon/Track (= 0.0.1)
+  - TXBeacon/Audit (0.0.1):
+    - TXBeacon/Base
+  - TXBeacon/Base (0.0.1)
+  - TXBeacon/Log (0.0.1):
+    - TXBeacon/Base
+  - TXBeacon/Speed (0.0.1):
+    - TXBeacon/Base
+  - TXBeacon/Track (0.0.1):
+    - TXBeacon/Base
+
+DEPENDENCIES:
+  - TXBeacon (from `../../`)
+
+EXTERNAL SOURCES:
+  TXBeacon:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  TXBeacon: a832af41136624a62c5d8ede2d1b3d16f35976ed
+
+PODFILE CHECKSUM: e24d2d921efea82fd71d7319b10766bfbea8244d
+
+COCOAPODS: 1.5.0

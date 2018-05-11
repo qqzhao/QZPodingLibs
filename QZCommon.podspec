@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "QZCommon"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A short description of util. by ab. c."
   s.description  = "this is the description by myself."
   s.homepage     = "http://EXAMPLE/util"
@@ -56,6 +56,8 @@ Pod::Spec.new do |s|
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
+  #s.xcconfig = { "SWIFT_LANGUAGE_VERSION" => "Swift 4.1" } # 不起作用
 
   # s.dependency "Toaster", "~> 2.1.1"
 

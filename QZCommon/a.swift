@@ -5,11 +5,6 @@
 
 import Foundation
 
-extension UIColor {
-    public class func test1() -> Void {
-        print("test1")
-    }
-}
 
 public final class TestClass1: NSObject {
     public static let test2: String = "aaa"
