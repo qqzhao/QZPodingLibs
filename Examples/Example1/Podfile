@@ -1,0 +1,25 @@
+
+platform :ios, '8.0'
+use_frameworks!
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'Example' do
+
+    pod 'SnapKit', '~> 4.0.0'
+    pod 'RxCocoa'
+    pod 'RxSwift'
+    # Native Begin
+    
+    pod 'QBToast', :path => '../../'
+    pod 'QZCommon', :path => '../../'
+    # Native End
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ENABLE_BITCODE'] = 'NO'
+        end
+    end
+end
