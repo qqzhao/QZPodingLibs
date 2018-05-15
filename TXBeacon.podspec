@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TXBeacon"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of util. by ab. c."
   s.description  = "this is the description by myself."
   s.homepage     = "http://EXAMPLE/util"
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
 
   #s.xcconfig = { "SWIFT_LANGUAGE_VERSION" => "Swift 4.1" } # 不起作用
 

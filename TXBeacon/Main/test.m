@@ -4,6 +4,12 @@
 
 @implementation NSObject (XXX)
 
+//+ (void)initialize
+//{
+//    if (self == [NSObject class]) {
+//        NSLog(@"11");
+//    }
+//}
 + (void)setupBeaconTest{
 //    enum AnlyticsSDKStatus status = [BeaconBaseInterface getSDKStatus];
     

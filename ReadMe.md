@@ -11,4 +11,5 @@ pod 'TXBeacon', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
 
 ### TODO List
 
-1. TXBeacon 中有一个crash，关于track
+1. 
+2. 

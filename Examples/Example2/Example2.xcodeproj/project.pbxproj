@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4C4B32C8CC4E614C9F318274 /* Pods_Example2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8576E9B9B1C405597F629B /* Pods_Example2.framework */; };
+		C03A7B8020AAF3C9004E925F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A7B7220AAF3C7004E925F /* RootViewController.m */; };
+		C03A7B8120AAF3C9004E925F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A7B7420AAF3C8004E925F /* BaseViewController.m */; };
+		C03A7B8220AAF3C9004E925F /* PagePathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03A7B7620AAF3C8004E925F /* PagePathViewController.xib */; };
+		C03A7B8320AAF3C9004E925F /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03A7B7720AAF3C8004E925F /* BaseViewController.xib */; };
+		C03A7B8420AAF3C9004E925F /* SpeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03A7B7920AAF3C8004E925F /* SpeedViewController.xib */; };
+		C03A7B8520AAF3C9004E925F /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A7B7B20AAF3C9004E925F /* SpeedViewController.m */; };
+		C03A7B8620AAF3C9004E925F /* LogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03A7B7C20AAF3C9004E925F /* LogViewController.xib */; };
+		C03A7B8720AAF3C9004E925F /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A7B7D20AAF3C9004E925F /* LogViewController.m */; };
+		C03A7B8820AAF3C9004E925F /* PagePathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A7B7E20AAF3C9004E925F /* PagePathViewController.m */; };
 		C092478B20A5E23D00E27C63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C092478A20A5E23D00E27C63 /* AppDelegate.m */; };
 		C092478E20A5E23D00E27C63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C092478D20A5E23D00E27C63 /* ViewController.m */; };
 		C092479120A5E23D00E27C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C092478F20A5E23D00E27C63 /* Main.storyboard */; };
@@ -39,6 +48,20 @@
 /* Begin PBXFileReference section */
 		3F8FD4910FA8B5D1F5AF7E30 /* Pods-Example2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example2/Pods-Example2.debug.xcconfig"; sourceTree = "<group>"; };
 		73898F4EBAD2346DE69C8429 /* Pods-Example2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example2/Pods-Example2.release.xcconfig"; sourceTree = "<group>"; };
+		C03A7B7220AAF3C7004E925F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C03A7B7320AAF3C8004E925F /* PagePathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagePathViewController.h; sourceTree = "<group>"; };
+		C03A7B7420AAF3C8004E925F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C03A7B7520AAF3C8004E925F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C03A7B7620AAF3C8004E925F /* PagePathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagePathViewController.xib; sourceTree = "<group>"; };
+		C03A7B7720AAF3C8004E925F /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		C03A7B7820AAF3C8004E925F /* SpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedViewController.h; sourceTree = "<group>"; };
+		C03A7B7920AAF3C8004E925F /* SpeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeedViewController.xib; sourceTree = "<group>"; };
+		C03A7B7A20AAF3C8004E925F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C03A7B7B20AAF3C9004E925F /* SpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
+		C03A7B7C20AAF3C9004E925F /* LogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogViewController.xib; sourceTree = "<group>"; };
+		C03A7B7D20AAF3C9004E925F /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		C03A7B7E20AAF3C9004E925F /* PagePathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagePathViewController.m; sourceTree = "<group>"; };
+		C03A7B7F20AAF3C9004E925F /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
 		C092478620A5E23D00E27C63 /* Example2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C092478920A5E23D00E27C63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C092478A20A5E23D00E27C63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +153,20 @@
 		C092478820A5E23D00E27C63 /* Example2 */ = {
 			isa = PBXGroup;
 			children = (
+				C03A7B7520AAF3C8004E925F /* BaseViewController.h */,
+				C03A7B7420AAF3C8004E925F /* BaseViewController.m */,
+				C03A7B7720AAF3C8004E925F /* BaseViewController.xib */,
+				C03A7B7F20AAF3C9004E925F /* LogViewController.h */,
+				C03A7B7D20AAF3C9004E925F /* LogViewController.m */,
+				C03A7B7C20AAF3C9004E925F /* LogViewController.xib */,
+				C03A7B7320AAF3C8004E925F /* PagePathViewController.h */,
+				C03A7B7E20AAF3C9004E925F /* PagePathViewController.m */,
+				C03A7B7620AAF3C8004E925F /* PagePathViewController.xib */,
+				C03A7B7A20AAF3C8004E925F /* RootViewController.h */,
+				C03A7B7220AAF3C7004E925F /* RootViewController.m */,
+				C03A7B7820AAF3C8004E925F /* SpeedViewController.h */,
+				C03A7B7B20AAF3C9004E925F /* SpeedViewController.m */,
+				C03A7B7920AAF3C8004E925F /* SpeedViewController.xib */,
 				C092478920A5E23D00E27C63 /* AppDelegate.h */,
 				C092478A20A5E23D00E27C63 /* AppDelegate.m */,
 				C092478C20A5E23D00E27C63 /* ViewController.h */,
@@ -287,6 +324,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03A7B8220AAF3C9004E925F /* PagePathViewController.xib in Resources */,
+				C03A7B8320AAF3C9004E925F /* BaseViewController.xib in Resources */,
+				C03A7B8420AAF3C9004E925F /* SpeedViewController.xib in Resources */,
+				C03A7B8620AAF3C9004E925F /* LogViewController.xib in Resources */,
 				C092479620A5E24300E27C63 /* LaunchScreen.storyboard in Resources */,
 				C092479320A5E24300E27C63 /* Assets.xcassets in Resources */,
 				C092479120A5E23D00E27C63 /* Main.storyboard in Resources */,
@@ -354,9 +395,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C092478E20A5E23D00E27C63 /* ViewController.m in Sources */,
+				C03A7B8120AAF3C9004E925F /* BaseViewController.m in Sources */,
 				C092479920A5E24300E27C63 /* main.m in Sources */,
 				C092478B20A5E23D00E27C63 /* AppDelegate.m in Sources */,
+				C03A7B8820AAF3C9004E925F /* PagePathViewController.m in Sources */,
+				C03A7B8520AAF3C9004E925F /* SpeedViewController.m in Sources */,
 				C09247BD20A5E45A00E27C63 /* TestSwift.swift in Sources */,
+				C03A7B8020AAF3C9004E925F /* RootViewController.m in Sources */,
+				C03A7B8720AAF3C9004E925F /* LogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +582,10 @@
 					"\"${PODS_ROOT}/../../../TXBeacon/libcxx\"",
 				);
 				INFOPLIST_FILE = Example2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example2/Example2-Bridging-Header.h";
@@ -561,7 +610,10 @@
 					"\"${PODS_ROOT}/../../../TXBeacon/libcxx\"",
 				);
 				INFOPLIST_FILE = Example2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example2/Example2-Bridging-Header.h";
@@ -578,7 +630,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVDDR6XGW9;
 				INFOPLIST_FILE = Example2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -594,7 +650,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVDDR6XGW9;
 				INFOPLIST_FILE = Example2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -609,7 +669,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVDDR6XGW9;
 				INFOPLIST_FILE = Example2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,7 +688,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVDDR6XGW9;
 				INFOPLIST_FILE = Example2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

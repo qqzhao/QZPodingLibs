@@ -19,9 +19,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
-//    [BeaconBaseInterface setAppKey:@"1ND57WQQNS2WHH2E"];
+    // Override point for customization after application launch.    
     [self startBeacon];
     return YES;
 }
@@ -33,15 +31,19 @@
     [BeaconBaseInterface setAccessTest:YES];                        //开启实时联调模式，发布时记得注释掉
 #endif
     [BeaconBaseInterface setChannelId:@"001"];                      //渠道号
-    [BeaconBaseInterface setAppKey:@"0M300V63NP0NGUB3"];            //设置AppKey
+    [BeaconBaseInterface setAppKey:@"1ND57WQQNS2WHH2E"];            //设置AppKey
     [BeaconBaseInterface enableAnalytics:@"331050027" gatewayIP:nil]; //SDK初始化
     [BeaconBaseInterface enableSDKQuaUpload:YES];                   //开启日志质量采集
-//    [BeaconTrackInterface setTrackEnable:YES];                      //开启动态埋点功能
+    [BeaconTrackInterface setTrackEnable:YES];                      //开启动态埋点功能
     [BeaconAuditInterface setAuditEnable:YES];                      //开启渠道稽核功能
 #if DEBUG == 1
     NSTimeInterval end = [[NSDate date] timeIntervalSince1970];
     NSLog(@"appdelegate beacon sdk init using %f ms", (end * 1000 - start * 1000));
 #endif
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [BeaconBaseInterface onUserAction:@"testEvent" isSucceed:YES elapse:100 size:0 params:@{@"testKey1": @"testValue1", @"testKey2": [NSNumber numberWithFloat:0.834]}];
+    });
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
