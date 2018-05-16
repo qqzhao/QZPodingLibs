@@ -1,4 +1,16 @@
 PODS:
+  - QZCommon (0.0.5):
+    - QZCommon/All (= 0.0.5)
+    - QZCommon/Base (= 0.0.5)
+    - QZCommon/Network (= 0.0.5)
+    - QZCommon/UI (= 0.0.5)
+  - QZCommon/All (0.0.5):
+    - QZCommon/Base
+    - QZCommon/Network
+    - QZCommon/UI
+  - QZCommon/Base (0.0.5)
+  - QZCommon/Network (0.0.5)
+  - QZCommon/UI (0.0.5)
   - TXBeacon (0.0.2):
     - TXBeacon/Audit (= 0.0.2)
     - TXBeacon/Base (= 0.0.2)
@@ -16,15 +28,19 @@ PODS:
     - TXBeacon/Base
 
 DEPENDENCIES:
+  - QZCommon (from `../../`)
   - TXBeacon (from `../../`)
 
 EXTERNAL SOURCES:
+  QZCommon:
+    :path: "../../"
   TXBeacon:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  TXBeacon: 4c7f1ca2f2b92fb92723f1e038198d72571c761a
+  QZCommon: 7fac6029f35112018cd5cffa6840382985ec9fb9
+  TXBeacon: 9427ff737a02322ee60e002684d7d9b7b9250608
 
-PODFILE CHECKSUM: e24d2d921efea82fd71d7319b10766bfbea8244d
+PODFILE CHECKSUM: 24d8f36867095f40616280d2cb7e1e7db07bf67c
 
 COCOAPODS: 1.5.0

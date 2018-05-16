@@ -9,7 +9,7 @@ target 'Example2' do
     #pod 'RxSwift'
     # Native Begin
     #pod 'QBToast', :path => '../../'
-    #pod 'QZCommon', :path => '../../'
+    pod 'QZCommon', :path => '../../'
     pod 'TXBeacon', :path => '../../'
     # Native End
 end

@@ -358,10 +358,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example2/Pods-Example2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QZCommon/QZCommon.framework",
 				"${BUILT_PRODUCTS_DIR}/TXBeacon/TXBeacon.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QZCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TXBeacon.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,8 +575,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZVDDR6XGW9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 73337P6T5A;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/QZCommon\"",
@@ -586,8 +589,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.qqtranslator.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33771726-e39e-4ff7-acc9-88ee3518b728";
+				PROVISIONING_PROFILE_SPECIFIER = TranslatorDevelopProvision;
 				SWIFT_OBJC_BRIDGING_HEADER = "Example2/Example2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -601,8 +606,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZVDDR6XGW9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/QZCommon\"",
@@ -614,8 +620,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mymodule.Example2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.qqtranslator.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example2/Example2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
