@@ -514,7 +514,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qianzhaotest.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "82f5d60b-5639-4264-841f-ef0adc57883e";
 				PROVISIONING_PROFILE_SPECIFIER = MttDevelopment2;
@@ -536,7 +536,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qianzhaotest.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
