@@ -4,13 +4,13 @@
 ```
 pod 'QBToast', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
 #pod 'QZCommon', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
-pod 'QZCommon', :git => 'https://github.com/qqzhao/QZPodingLibs.git' , :subspecs=>['All']
+pod 'QZCommon', :git => 'https://github.com/qqzhao/QZPodingLibs.git', :subspecs=>['All']
 pod 'TXBeacon', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
 ```
 
 
 ### TODO List
 
-1. XX
+1. XXYYZZ
 2. 
 3. 
