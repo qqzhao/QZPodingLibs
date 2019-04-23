@@ -18,5 +18,5 @@ pod 'TXBeacon', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
 ### Other
 
 ```bash
-echo 'test'
+echo 'test22'
 ```
