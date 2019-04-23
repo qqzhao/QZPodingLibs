@@ -13,4 +13,10 @@ pod 'TXBeacon', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
 
 1. XXYYZZ
 2. 
-3. 
+
+
+### Other
+
+```bash
+echo 'test'
+```
