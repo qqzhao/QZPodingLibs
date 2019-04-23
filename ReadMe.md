@@ -13,3 +13,4 @@ pod 'TXBeacon', :git => 'https://github.com/qqzhao/QZPodingLibs.git'
 
 1. 
 2. 
+3. 
